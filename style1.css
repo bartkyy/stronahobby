@@ -1,0 +1,60 @@
+body
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#container
+{
+    width: 100vw;
+    height: auto;
+    transform: translate(-8px, -8px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header
+{
+    font-size: 45px;
+    text-align: center;
+    background-color: black;
+    color: white;   
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    text-align: center;
+}
+
+#main
+{
+    width: 100vw;
+    height: 850px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+
+#main > center
+{
+    width: 100vw;
+    font-size: xx-large;
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+
+#img1
+{
+    border: 5px solid white;
+    border-radius: 50px;
+    width: 250px; 
+    height: 250px;
+}
+
+#img1:hover
+{
+    border: 5px solid white;
+    border-radius: 30px;
+    width: 275px; 
+    height: 275px;
+}
